@@ -1,0 +1,43 @@
+@media screen and (max-width: 499px){
+.score-panel {
+  text-align: left;
+  width: 250px;
+  margin-bottom: 10px;
+  }
+.deck {
+  width: 270px;
+  min-height: 270px;
+  margin-top: 50px;
+  }
+
+.deck .card {
+  height: 50px;
+  width: 50px;
+  }
+
+.deck .card.show {
+  font-size: 20px;
+  }
+.deck .card.match{
+  font-size: 20px;
+  }
+.deck .card.unmatch{
+  font-size: 20px;
+  }
+
+.modal-content {
+  width: 18rem;
+  }
+
+h2.congrat{
+  font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width: 1024px) and (min-width:500px){
+.deck {
+  margin-top: 50px;
+  }
+
+}

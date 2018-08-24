@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Matching Game</title>
+    <meta name="description" content="Matching Game">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Card Matching Game</h1>
+        </header>
+        <section class="score-panel">
+        	<ul class="stars">
+        		<li><i class="fa fa-star "></i></li>
+        		<li><i class="fa fa-star "></i></li>
+        		<li><i class="fa fa-star "></i></li>
+        	</ul>
+
+        	<span class="moves">3</span> <span class="moves_1">Move</span>
+          <span id = "h">0h</span>:<span id = "m">0m</span>:<span id = "s">0s</span>
+
+          <div class="restart">
+        		<i class="fa fa-repeat"></i>
+        	</div>
+        </section>
+
+        <ul class="deck">
+            <li class="c1 card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="c2 card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="c3 card match">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="c4 card">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="c5 card">
+                <i class="fa fa-cube"></i>
+            </li>
+            <li class="c6 card match">
+                <i class="fa fa-anchor"></i>
+            </li>
+            <li class="c7 card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="c8 card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="c9 card">
+                <i class="fa fa-diamond"></i>
+            </li>
+            <li class="c10 card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="c11 card">
+                <i class="fa fa-leaf"></i>
+            </li>
+            <li class="c12 card">
+                <i class="fa fa-bomb"></i>
+            </li>
+            <li class="c13 card open show">
+                <i class="fa fa-bolt"></i>
+            </li>
+            <li class="c14 card">
+                <i class="fa fa-bicycle"></i>
+            </li>
+            <li class="c15 card">
+                <i class="fa fa-paper-plane-o"></i>
+            </li>
+            <li class="c16 card open show">
+                <i class="fa fa-cube"></i>
+            </li>
+        </ul>
+    </div>
+
+    <div class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2 class="congrat">Congratulations You Won!</h2>
+        <p class="text1">With <span class="moves_2">17</span> moves and <span class="star_2">1</span> star</p>
+        <p class="text1">You won this game in <span class="ho">0</span>h:<span class="mi">0</span>m:<span class="se">0</span>s</p>
+        <p class="text1">Waooooow</p>
+        <button class="button">Play Again</button>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
