@@ -74,6 +74,7 @@ function restart() {
   mo = 0;
   seconds = 0;
   stopCounter();
+  timeInit = 0;
   star3.classList.remove("rating");
   star2.classList.remove("rating");
   document.getElementById('s').textContent = "0s";
@@ -203,7 +204,7 @@ function TimeInitiator(){
 
 // this function sets the timer variable such as hour,min and sec
 function Timer(){
-  ++seconds;
+  seconds = seconds + 1;
   hour = Math.floor(seconds / 3600);
   min = Math.floor((seconds - hour * 3600) / 60);
   sec = Math.floor(seconds - (hour * 3600 + min * 60));
@@ -229,11 +230,14 @@ function stopCounter(){
  depending on the no of moves played
 */
 function Ratings(){
-if (moves === 16){
+if (moves <= 15){
+  star = 3;
+}
+else if ((moves >= 16) && (moves <= 25)){
   star = 2;
   star3.classList.add("rating")
  }
-else if (moves === 25) {
+else if (moves > 25) {
   star = 1;
   star2.classList.add("rating")
   }
