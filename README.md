@@ -5,7 +5,7 @@
 ## Table of Contents
 
 
-* [Intoduction](#imtoduction)
+* [Introduction](#introduction)
 
 * [Instructions](#instructions)
 
@@ -17,7 +17,7 @@
 
 
 
-## Intoduction
+## Introduction
 
 Matching Memory Game is a simple game whereby the player matches two cards, if the two cards are
 the same, it matches, if the cards are not the same, it will not match. ones the player is able to 
