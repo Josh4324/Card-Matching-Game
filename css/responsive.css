@@ -42,7 +42,7 @@
 
 }
 
-@media screen and (max-width: 1024px) and (min-width:500px) {
+@media (min-width:500px) {
   .deck {
     margin-top: 50px;
   }
