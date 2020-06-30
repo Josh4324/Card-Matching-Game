@@ -31,8 +31,7 @@ To play the game, click this link https://josh4324.github.io/Card-Matching-Game/
 
 ## Usage
 
-The game can be started by clicking on the cards i.e matching the cards, once the player tries to match
-the card, the timer starts.
+To run on localhost, double click on the the index.html or open with a web browser
 
 ## Contributing
 
